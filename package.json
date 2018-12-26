@@ -1,0 +1,31 @@
+{
+  "name": "media-tracker",
+  "version": "1.0.0",
+  "description": "Track owned media across disparate platforms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmccormack/media-tracker.git"
+  },
+  "keywords": [
+    "Media",
+    "Tracker"
+  ],
+  "author": "Christopher McCormack <mack.developer@gmail.com> (https://mackville.net)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/cmccormack/media-tracker/issues"
+  },
+  "homepage": "https://github.com/cmccormack/media-tracker#readme",
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
+  }
+}
