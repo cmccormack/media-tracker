@@ -1,2 +1,2 @@
 # media-tracker
-Site that tracks media you own across different platforms
+Track owned media across disparate platforms
