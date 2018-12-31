@@ -19,3 +19,5 @@ const server = app.listen(app.get("port"), err => {
   const {port} = server.address()
   console.info(`Server started on port ${port}`)
 })
+
+module.exports = server
