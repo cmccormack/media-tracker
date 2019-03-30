@@ -1,22 +1,24 @@
-# media-tracker
-Track owned media across disparate platforms
+# Media Tracker
 
+Track owned media across disparate platforms
 
 ## Back-End API
 
-| Resource   | GET (200) | POST (201) | PUT | DELETE |
-| ---------- | --- | ---- | --- | ------ |
-| /api/login | Get login status |  Create user session | N/A (405) | Delete user session |
+| Resource   | GET (200)        | POST (201)          | PUT       | DELETE              |
+| ---------- | ---------------- | ------------------- | --------- | ------------------- |
+| /api/login | Get login status | Create user session | N/A (405) | Delete user session |
+
 | /api/register
 
 ### User Login
-- [] A user can log in by passing `username` and `password` in a `POST` request to `/api/login`.  An object should be returned that contains success value and user data.
-- [] A user can test their logged in status by sending a `GET` request to `/api/login`.  A boolean value will be returned, `true` if user is currently logged in, else `false`
+
+- [] A user can log in by passing `username` and `password` in a `POST` request to `/api/login`. An object should be returned that contains success value and user data.
+- [] A user can test their logged in status by sending a `GET` request to `/api/login`. A boolean value will be returned, `true` if user is currently logged in, else `false`
 
 ### Server
+
 - [] Static can be served from `public` directory
 - [] Server starts successfully
-
 
 ## Front-End
 
@@ -24,10 +26,10 @@ Track owned media across disparate platforms
 
 ## Accessibility
 
-
 ## Notes
 
 ### Commonly Used HTTP Codes
+
 - `200 OK` — This is most commonly used HTTP code to show that the operation performed is successful.
 - `201 CREATED` — This can be used when you use POST method to create a new resource.
 - `202 ACCEPTED` — This can be used to acknowledge the request sent to the server.

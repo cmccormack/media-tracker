@@ -1,0 +1,28 @@
+{
+  "name": "media-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend for Media Tracker App",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test:dev": "jest --watchAll"
+  },
+  "keywords": [
+    "Media",
+    "Tracker",
+    "Backend",
+    "Node",
+    "Express"
+  ],
+  "author": "Christopher McCormack <mack.developer@gmail.com> (https://mackville.net)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
