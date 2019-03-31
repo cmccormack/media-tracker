@@ -4,7 +4,9 @@
   "description": "Track owned media across disparate platforms",
   "main": "index.js",
   "scripts": {
-    "test:dev": "jest --watchAll"
+    "test": "jest",
+    "test:dev": "jest --watchAll",
+    "start": "cd ./backend && npm run start"
   },
   "repository": {
     "type": "git",

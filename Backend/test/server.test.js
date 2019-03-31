@@ -11,8 +11,9 @@ describe("Loading server", () => {
 
   test("Server is loaded and success response is received", done => {
     request(server)
-      .get("/")
+      .get("/api/health")
+      .expect("Content-Type", /json/)
       .expect(200)
-      .end(done);
+      .expect({ success: true, message: "Server is running" }, done);
   });
 });

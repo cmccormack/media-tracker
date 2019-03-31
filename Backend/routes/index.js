@@ -1,8 +1,12 @@
-module.exports = app => {
-  app.get("*", (req, res) => {
-    res.send("Woohoo!");
-  });
+/** Mount Express routers and utility routes
+ * @module routers
+ * @requires express
+ */
 
+const api_router = require("./api.js")();
+
+module.exports = app => {
+  app.use("/api", api_router);
   ///////////////////////////////////////////////////////////
   // Error Handler
   ///////////////////////////////////////////////////////////
